@@ -1,0 +1,10 @@
+{
+  "name": "coworking-mongodb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Esquema y carga inicial de los logs del coworking",
+  "scripts": {
+    "esquema": "mongosh --host 127.0.0.1 --port 27018 < esquemas.js",
+    "seed": "mongosh --host 127.0.0.1 --port 27018 < carga-inicial.js"
+  }
+}
